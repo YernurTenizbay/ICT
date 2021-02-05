@@ -1,0 +1,13 @@
+C:\Users\Ghost Raven\source\repos\ICT\Week1\bin\Debug\netcoreapp3.1\sample2.exe
+C:\Users\Ghost Raven\source\repos\ICT\Week1\bin\Debug\netcoreapp3.1\sample2.deps.json
+C:\Users\Ghost Raven\source\repos\ICT\Week1\bin\Debug\netcoreapp3.1\sample2.runtimeconfig.json
+C:\Users\Ghost Raven\source\repos\ICT\Week1\bin\Debug\netcoreapp3.1\sample2.runtimeconfig.dev.json
+C:\Users\Ghost Raven\source\repos\ICT\Week1\bin\Debug\netcoreapp3.1\sample2.dll
+C:\Users\Ghost Raven\source\repos\ICT\Week1\bin\Debug\netcoreapp3.1\sample2.pdb
+C:\Users\Ghost Raven\source\repos\ICT\Week1\obj\Debug\netcoreapp3.1\sample2.csprojAssemblyReference.cache
+C:\Users\Ghost Raven\source\repos\ICT\Week1\obj\Debug\netcoreapp3.1\sample2.AssemblyInfoInputs.cache
+C:\Users\Ghost Raven\source\repos\ICT\Week1\obj\Debug\netcoreapp3.1\sample2.AssemblyInfo.cs
+C:\Users\Ghost Raven\source\repos\ICT\Week1\obj\Debug\netcoreapp3.1\sample2.csproj.CoreCompileInputs.cache
+C:\Users\Ghost Raven\source\repos\ICT\Week1\obj\Debug\netcoreapp3.1\sample2.dll
+C:\Users\Ghost Raven\source\repos\ICT\Week1\obj\Debug\netcoreapp3.1\sample2.pdb
+C:\Users\Ghost Raven\source\repos\ICT\Week1\obj\Debug\netcoreapp3.1\sample2.genruntimeconfig.cache

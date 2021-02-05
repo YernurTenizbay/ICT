@@ -1,0 +1,13 @@
+C:\Users\Ghost Raven\source\repos\Week1\bin\Debug\netcoreapp3.1\Week1.exe
+C:\Users\Ghost Raven\source\repos\Week1\bin\Debug\netcoreapp3.1\Week1.deps.json
+C:\Users\Ghost Raven\source\repos\Week1\bin\Debug\netcoreapp3.1\Week1.runtimeconfig.json
+C:\Users\Ghost Raven\source\repos\Week1\bin\Debug\netcoreapp3.1\Week1.runtimeconfig.dev.json
+C:\Users\Ghost Raven\source\repos\Week1\bin\Debug\netcoreapp3.1\Week1.dll
+C:\Users\Ghost Raven\source\repos\Week1\bin\Debug\netcoreapp3.1\Week1.pdb
+C:\Users\Ghost Raven\source\repos\Week1\obj\Debug\netcoreapp3.1\Week1.csprojAssemblyReference.cache
+C:\Users\Ghost Raven\source\repos\Week1\obj\Debug\netcoreapp3.1\Week1.AssemblyInfoInputs.cache
+C:\Users\Ghost Raven\source\repos\Week1\obj\Debug\netcoreapp3.1\Week1.AssemblyInfo.cs
+C:\Users\Ghost Raven\source\repos\Week1\obj\Debug\netcoreapp3.1\Week1.csproj.CoreCompileInputs.cache
+C:\Users\Ghost Raven\source\repos\Week1\obj\Debug\netcoreapp3.1\Week1.dll
+C:\Users\Ghost Raven\source\repos\Week1\obj\Debug\netcoreapp3.1\Week1.pdb
+C:\Users\Ghost Raven\source\repos\Week1\obj\Debug\netcoreapp3.1\Week1.genruntimeconfig.cache

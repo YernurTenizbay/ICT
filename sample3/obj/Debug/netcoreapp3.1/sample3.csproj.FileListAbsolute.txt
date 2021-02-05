@@ -1,0 +1,12 @@
+C:\Users\Ghost Raven\source\repos\ICT\sample3\obj\Debug\netcoreapp3.1\sample3.AssemblyInfoInputs.cache
+C:\Users\Ghost Raven\source\repos\ICT\sample3\obj\Debug\netcoreapp3.1\sample3.AssemblyInfo.cs
+C:\Users\Ghost Raven\source\repos\ICT\sample3\obj\Debug\netcoreapp3.1\sample3.csproj.CoreCompileInputs.cache
+C:\Users\Ghost Raven\source\repos\ICT\sample3\bin\Debug\netcoreapp3.1\sample3.exe
+C:\Users\Ghost Raven\source\repos\ICT\sample3\bin\Debug\netcoreapp3.1\sample3.deps.json
+C:\Users\Ghost Raven\source\repos\ICT\sample3\bin\Debug\netcoreapp3.1\sample3.runtimeconfig.json
+C:\Users\Ghost Raven\source\repos\ICT\sample3\bin\Debug\netcoreapp3.1\sample3.runtimeconfig.dev.json
+C:\Users\Ghost Raven\source\repos\ICT\sample3\bin\Debug\netcoreapp3.1\sample3.dll
+C:\Users\Ghost Raven\source\repos\ICT\sample3\bin\Debug\netcoreapp3.1\sample3.pdb
+C:\Users\Ghost Raven\source\repos\ICT\sample3\obj\Debug\netcoreapp3.1\sample3.dll
+C:\Users\Ghost Raven\source\repos\ICT\sample3\obj\Debug\netcoreapp3.1\sample3.pdb
+C:\Users\Ghost Raven\source\repos\ICT\sample3\obj\Debug\netcoreapp3.1\sample3.genruntimeconfig.cache
