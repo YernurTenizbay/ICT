@@ -27,6 +27,24 @@ namespace week2
             content.AddRange(this.dir.GetDirectories());
             content.AddRange(this.dir.GetFiles());
         }
+        public void CreateDir(string name)
+        {
+            
+            string path = this.dir +name;
+
+            DirectoryInfo dirInfo = new DirectoryInfo(path);
+            if (!dirInfo.Exists)
+            {
+                dirInfo.Create();
+            }
+        }
+        public void Deldir()
+        {
+            string s = "";
+            string path = this.dir+s;
+            DirectoryInfo dirInfo = new DirectoryInfo(path);
+            dirInfo.Delete(true);
+        }
         public void PrintInfo()
         {
             Console.BackgroundColor = ConsoleColor.Blue;
@@ -93,9 +111,10 @@ namespace week2
         {
             F3();
         }
- 
+
         private static void F3()
         {
+
             Stack<Layer> history = new Stack<Layer>();
             history.Push(new Layer(new DirectoryInfo(@"C:\"), 0));
             bool escape = false;
@@ -112,6 +131,17 @@ namespace week2
                             history.Push(new Layer(history.Peek().GetCurrentObject() as DirectoryInfo, 0));
                         }
                         break;
+                    case ConsoleKey.Tab:
+                        string dname = Console.ReadLine();
+                        
+                      
+                        history.Peek().CreateDir(dname);
+                        break;
+                    case ConsoleKey.Q:
+                        
+                        history.Peek().Deldir();
+                        history.Pop();
+                        break;
                     case ConsoleKey.UpArrow:
                         history.Peek().SetNewPosition(-1);
                         break;
@@ -123,7 +153,7 @@ namespace week2
                             history.Pop();
                         if (history.Count == 0) escape = true;
                             break;
-                        
+                       
                     
                 }
             }
