@@ -7,8 +7,10 @@ namespace Snake
 
   class Food : GameObject
         {
-            Wall wall = new Wall('#', ConsoleColor.DarkYellow);
+          
+            Wall wall = new Wall('#', ConsoleColor.DarkYellow, @"Levels/Level1.txt");
             Random rnd = new Random();
+            
             public Food(char sign, ConsoleColor color) : base(sign, color)
             {
                 Point location = new Point { X = rnd.Next(1, Game.Width), Y = rnd.Next(1, Game.Height) };
@@ -17,6 +19,7 @@ namespace Snake
             }
             public void Generate()
             {
+           
                 int x = rnd.Next(1, 39);
                 int y = rnd.Next(1, 39);
                 while (wall.coor[x, y] != 0)
