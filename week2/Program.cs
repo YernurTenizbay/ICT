@@ -30,7 +30,7 @@ namespace week2
         public void CreateDir(string name)
         {
             
-            string path = this.dir +name;
+            string path = this.dir +"/"+name;
 
             DirectoryInfo dirInfo = new DirectoryInfo(path);
             if (!dirInfo.Exists)
@@ -38,12 +38,19 @@ namespace week2
                 dirInfo.Create();
             }
         }
+        public void RenameDir(string name)
+        {
+            if (name != String.Empty)
+            {
+                dir.MoveTo(name);
+            }
+
+        }
         public void Deldir()
         {
-            string s = "";
-            string path = this.dir+s;
-            DirectoryInfo dirInfo = new DirectoryInfo(path);
-            dirInfo.Delete(true);
+            content.Remove(dir); ;
+            dir.Delete(true);
+            
         }
         public void PrintInfo()
         {
@@ -133,8 +140,6 @@ namespace week2
                         break;
                     case ConsoleKey.Tab:
                         string dname = Console.ReadLine();
-                        
-                      
                         history.Peek().CreateDir(dname);
                         break;
                     case ConsoleKey.Q:
@@ -147,6 +152,10 @@ namespace week2
                         break;
                     case ConsoleKey.DownArrow:
                         history.Peek().SetNewPosition(1);
+                        break;
+                    case ConsoleKey.R:
+                        string rname = Console.ReadLine();
+                        history.Peek().RenameDir(rname);
                         break;
                     case ConsoleKey.Escape:
                         
