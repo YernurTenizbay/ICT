@@ -1,9 +1,18 @@
 ﻿using System;
 using System.IO;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
 namespace week2
 {   class Layer
     {
+        public Boolean opened2 = false;
+        public Boolean opened = false;
+        public long size{
+            get;
+            set;
+            }
         public DirectoryInfo dir
         {
             get;
@@ -23,6 +32,7 @@ namespace week2
         {
             this.dir = dir;
             this.pos = pos;
+            
             this.content = new List<FileSystemInfo>();
             content.AddRange(this.dir.GetDirectories());
             content.AddRange(this.dir.GetFiles());
@@ -52,6 +62,53 @@ namespace week2
             dir.Delete(true);
             
         }
+        public string Sizedir(DirectoryInfo d)
+        {   
+            try
+            {//long longsize= dir.EnumerateFiles().Sum(file => file.Length);
+                long longsize = d.EnumerateFiles().Sum(file => file.Length);
+                this.size = longsize;
+                return this.size + "";
+            }
+            catch
+            {
+                return "0";
+            }
+        }
+        public string Sizefile(FileInfo f)
+        {
+            try
+            {
+                this.size = f.Length;
+                return this.size+"";
+            }
+            catch
+            {
+                return "0";
+            }
+        }
+
+        public void Openfile(FileInfo f)
+        {
+            try
+            {
+                string path = @f.ToString();
+                using (FileStream fs = File.OpenRead(path))
+                {
+                    byte[] b = new byte[1024];
+                    UTF8Encoding temp = new UTF8Encoding(true);
+                    while (fs.Read(b, 0, b.Length) > 0)
+                    {
+                        Console.WriteLine(temp.GetString(b));
+                    }
+                }
+
+            }
+            catch
+            {
+                Console.WriteLine("0");
+            }
+        }
         public void PrintInfo()
         {
             Console.BackgroundColor = ConsoleColor.Blue;
@@ -68,7 +125,8 @@ namespace week2
                 {
                     Console.BackgroundColor = ConsoleColor.Blue;
                 }
-                Console.WriteLine(d.Name);
+                Console.WriteLine(d.Name+"---"+ Sizedir(d)+ " bytes");
+                
                 cnt++;
             }
             Console.ForegroundColor = ConsoleColor.DarkBlue;
@@ -76,13 +134,19 @@ namespace week2
             {
                 if (cnt == pos)
                 {
+                    if (opened == true)
+                        opened2 = true;
                     Console.BackgroundColor = ConsoleColor.Cyan;
                 }
                 else
                 {
+
                     Console.BackgroundColor = ConsoleColor.Blue;
                 }
-                Console.WriteLine(f.Name);
+                Console.WriteLine(f.Name + "---" + Sizefile(f)+ " bytes");
+                if(opened2)
+                    Openfile(f);
+                opened2 = false;
                 cnt++;
 
             }
@@ -129,6 +193,9 @@ namespace week2
             {
                 Console.Clear();
                 history.Peek().PrintInfo();
+
+
+                
                 ConsoleKeyInfo consoleKeyInfo = Console.ReadKey(true);
                 switch (consoleKeyInfo.Key)
                 {
@@ -137,7 +204,11 @@ namespace week2
                         {
                             history.Push(new Layer(history.Peek().GetCurrentObject() as DirectoryInfo, 0));
                         }
-                        break;
+                        else if (history.Peek().GetCurrentObject().GetType() == typeof(FileInfo))
+                        {
+                            history.Peek().opened = true;
+                        }
+                            break;
                     case ConsoleKey.Tab:
                         string dname = Console.ReadLine();
                         history.Peek().CreateDir(dname);
@@ -149,14 +220,21 @@ namespace week2
                         break;
                     case ConsoleKey.UpArrow:
                         history.Peek().SetNewPosition(-1);
+                        
                         break;
                     case ConsoleKey.DownArrow:
                         history.Peek().SetNewPosition(1);
+                        
                         break;
                     case ConsoleKey.R:
                         string rname = Console.ReadLine();
                         history.Peek().RenameDir(rname);
                         break;
+                    case ConsoleKey.W:
+                        
+                        history.Peek().opened=false;
+                        break;
+
                     case ConsoleKey.Escape:
                         
                             history.Pop();
