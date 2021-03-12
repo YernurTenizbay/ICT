@@ -5,12 +5,13 @@ using System.Text;
 
 namespace Snake
 {
-    class Wall : GameObject
+    public class Wall : GameObject
     {
         
        
         public int[,] coor = new int[39, 39];
-       
+        
+        
         public Wall(char sign, ConsoleColor color,string path) : base(sign, color)
         {
             using (FileStream fs = new FileStream(path, FileMode.Open, FileAccess.Read))

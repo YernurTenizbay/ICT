@@ -5,10 +5,10 @@ using System.Text;
 namespace Snake
 {
 
-  class Food : GameObject
+  public class Food : GameObject
         {
           
-            Wall wall = new Wall('#', ConsoleColor.DarkYellow, @"Levels/Level1.txt");
+            Wall wall = new Wall('#', ConsoleColor.DarkYellow, @"Levels/level1.txt");
             Random rnd = new Random();
             
             public Food(char sign, ConsoleColor color) : base(sign, color)
