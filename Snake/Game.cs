@@ -96,7 +96,7 @@ namespace Snake
 
         public void KeyPressed(ConsoleKeyInfo pressedKey)
         {
-            if (cnt == 3)
+            if (cnt > 3)
             {
 
                 wall = new Wall('#', ConsoleColor.DarkYellow, @"Levels/level2.txt");

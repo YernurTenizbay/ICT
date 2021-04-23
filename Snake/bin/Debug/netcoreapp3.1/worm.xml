@@ -2,12 +2,12 @@
 <Worm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <body>
     <Point>
-      <X>30</X>
-      <Y>10</Y>
+      <X>24</X>
+      <Y>13</Y>
     </Point>
   </body>
-  <Dx>-1</Dx>
-  <Dy>0</Dy>
+  <Dx>0</Dx>
+  <Dy>-1</Dy>
 </Worm>    </Point>
   </body>
   <Dx>1</Dx>

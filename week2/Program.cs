@@ -5,14 +5,16 @@ using System.Linq;
 using System.Text;
 
 namespace week2
-{   class Layer
+{
+    class Layer
     {
         public Boolean opened2 = false;
         public Boolean opened = false;
-        public long size{
+        public long size
+        {
             get;
             set;
-            }
+        }
         public DirectoryInfo dir
         {
             get;
@@ -28,19 +30,19 @@ namespace week2
             get;
             set;
         }
-        public Layer(DirectoryInfo dir,int pos)
+        public Layer(DirectoryInfo dir, int pos)
         {
             this.dir = dir;
             this.pos = pos;
-            
+
             this.content = new List<FileSystemInfo>();
             content.AddRange(this.dir.GetDirectories());
             content.AddRange(this.dir.GetFiles());
         }
         public void CreateDir(string name)
         {
-            
-            string path = this.dir +"/"+name;
+
+            string path = this.dir + "/" + name;
 
             DirectoryInfo dirInfo = new DirectoryInfo(path);
             if (!dirInfo.Exists)
@@ -60,10 +62,10 @@ namespace week2
         {
             content.Remove(dir); ;
             dir.Delete(true);
-            
+
         }
         public string Sizedir(DirectoryInfo d)
-        {   
+        {
             try
             {//long longsize= dir.EnumerateFiles().Sum(file => file.Length);
                 long longsize = d.EnumerateFiles().Sum(file => file.Length);
@@ -80,7 +82,7 @@ namespace week2
             try
             {
                 this.size = f.Length;
-                return this.size+"";
+                return this.size + "";
             }
             catch
             {
@@ -125,12 +127,12 @@ namespace week2
                 {
                     Console.BackgroundColor = ConsoleColor.Blue;
                 }
-                Console.WriteLine(d.Name+"---"+ Sizedir(d)+ " bytes");
-                
+                Console.WriteLine(d.Name + "---" + Sizedir(d) + " bytes");
+
                 cnt++;
             }
             Console.ForegroundColor = ConsoleColor.DarkBlue;
-            foreach(FileInfo f in dir.GetFiles())
+            foreach (FileInfo f in dir.GetFiles())
             {
                 if (cnt == pos)
                 {
@@ -143,8 +145,8 @@ namespace week2
 
                     Console.BackgroundColor = ConsoleColor.Blue;
                 }
-                Console.WriteLine(f.Name + "---" + Sizefile(f)+ " bytes");
-                if(opened2)
+                Console.WriteLine(f.Name + "---" + Sizefile(f) + " bytes");
+                if (opened2)
                     Openfile(f);
                 opened2 = false;
                 cnt++;
@@ -195,7 +197,7 @@ namespace week2
                 history.Peek().PrintInfo();
 
 
-                
+
                 ConsoleKeyInfo consoleKeyInfo = Console.ReadKey(true);
                 switch (consoleKeyInfo.Key)
                 {
@@ -208,40 +210,40 @@ namespace week2
                         {
                             history.Peek().opened = true;
                         }
-                            break;
+                        break;
                     case ConsoleKey.Tab:
                         string dname = Console.ReadLine();
                         history.Peek().CreateDir(dname);
                         break;
                     case ConsoleKey.Q:
-                        
+
                         history.Peek().Deldir();
                         history.Pop();
                         break;
                     case ConsoleKey.UpArrow:
                         history.Peek().SetNewPosition(-1);
-                        
+
                         break;
                     case ConsoleKey.DownArrow:
                         history.Peek().SetNewPosition(1);
-                        
+
                         break;
                     case ConsoleKey.R:
                         string rname = Console.ReadLine();
                         history.Peek().RenameDir(rname);
                         break;
                     case ConsoleKey.W:
-                        
-                        history.Peek().opened=false;
+
+                        history.Peek().opened = false;
                         break;
 
                     case ConsoleKey.Escape:
-                        
-                            history.Pop();
+
+                        history.Pop();
                         if (history.Count == 0) escape = true;
-                            break;
-                       
-                    
+                        break;
+
+
                 }
             }
 
