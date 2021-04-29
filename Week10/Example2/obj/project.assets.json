@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\Ghost Raven\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\Week10\\Example2\\Example2.csproj",
+      "projectUniqueName": "C:\\Users\\Ghost Raven\\source\\repos\\ICT2021\\Week10\\Example2\\Example2.csproj",
       "projectName": "Example2",
-      "projectPath": "C:\\Users\\Admin\\source\\repos\\Week10\\Example2\\Example2.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\source\\repos\\Week10\\Example2\\obj\\",
+      "projectPath": "C:\\Users\\Ghost Raven\\source\\repos\\ICT2021\\Week10\\Example2\\Example2.csproj",
+      "packagesPath": "C:\\Users\\Ghost Raven\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ghost Raven\\source\\repos\\ICT2021\\Week10\\Example2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ghost Raven\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -63,7 +63,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
