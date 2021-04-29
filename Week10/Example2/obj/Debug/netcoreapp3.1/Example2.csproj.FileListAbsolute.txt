@@ -13,3 +13,19 @@ C:\Users\Admin\source\repos\Week10\Example2\obj\Debug\netcoreapp3.1\Example2.dll
 C:\Users\Admin\source\repos\Week10\Example2\obj\Debug\netcoreapp3.1\Example2.pdb
 C:\Users\Admin\source\repos\Week10\Example2\obj\Debug\netcoreapp3.1\Example2.genruntimeconfig.cache
 C:\Users\Admin\source\repos\Week10\Example2\obj\Debug\netcoreapp3.1\Example2.Properties.Resources.resources
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week10\Example2\bin\Debug\netcoreapp3.1\Example2.exe
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week10\Example2\bin\Debug\netcoreapp3.1\Example2.deps.json
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week10\Example2\bin\Debug\netcoreapp3.1\Example2.runtimeconfig.json
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week10\Example2\bin\Debug\netcoreapp3.1\Example2.runtimeconfig.dev.json
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week10\Example2\bin\Debug\netcoreapp3.1\Example2.dll
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week10\Example2\bin\Debug\netcoreapp3.1\Example2.pdb
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week10\Example2\obj\Debug\netcoreapp3.1\Example2.csprojAssemblyReference.cache
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week10\Example2\obj\Debug\netcoreapp3.1\Example2.Form1.resources
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week10\Example2\obj\Debug\netcoreapp3.1\Example2.Properties.Resources.resources
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week10\Example2\obj\Debug\netcoreapp3.1\Example2.csproj.GenerateResource.cache
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week10\Example2\obj\Debug\netcoreapp3.1\Example2.AssemblyInfoInputs.cache
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week10\Example2\obj\Debug\netcoreapp3.1\Example2.AssemblyInfo.cs
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week10\Example2\obj\Debug\netcoreapp3.1\Example2.csproj.CoreCompileInputs.cache
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week10\Example2\obj\Debug\netcoreapp3.1\Example2.dll
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week10\Example2\obj\Debug\netcoreapp3.1\Example2.pdb
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week10\Example2\obj\Debug\netcoreapp3.1\Example2.genruntimeconfig.cache

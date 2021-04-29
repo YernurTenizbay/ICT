@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ghost Raven\\source\\repos\\ICT2021\\Week10\\Week10\\Week10.csproj",
+      "projectUniqueName": "C:\\Users\\Ghost Raven\\source\\repos\\ICT2021Spring-main (1)\\ICT2021Spring-main\\Week10\\Week10\\Week10.csproj",
       "projectName": "Week10",
-      "projectPath": "C:\\Users\\Ghost Raven\\source\\repos\\ICT2021\\Week10\\Week10\\Week10.csproj",
+      "projectPath": "C:\\Users\\Ghost Raven\\source\\repos\\ICT2021Spring-main (1)\\ICT2021Spring-main\\Week10\\Week10\\Week10.csproj",
       "packagesPath": "C:\\Users\\Ghost Raven\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ghost Raven\\source\\repos\\ICT2021\\Week10\\Week10\\obj\\",
+      "outputPath": "C:\\Users\\Ghost Raven\\source\\repos\\ICT2021Spring-main (1)\\ICT2021Spring-main\\Week10\\Week10\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ghost Raven\\AppData\\Roaming\\NuGet\\NuGet.Config",

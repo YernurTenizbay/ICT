@@ -31,3 +31,36 @@ C:\Users\bsnbk\Documents\ICT2021Spring\Week11\Example2\bin\Debug\EntityFramework
 C:\Users\bsnbk\Documents\ICT2021Spring\Week11\Example2\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\bsnbk\Documents\ICT2021Spring\Week11\Example2\bin\Debug\System.Data.SQLite.xml
 C:\Users\bsnbk\Documents\ICT2021Spring\Week11\Example2\bin\Debug\test.db
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week11\Example2\bin\Debug\x86\sqlite3.dll
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week11\Example2\bin\Debug\x64\sqlite3.dll
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week11\Example2\bin\Debug\test.db
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week11\Example2\bin\Debug\Example2.exe.config
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week11\Example2\bin\Debug\Example2.exe
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week11\Example2\bin\Debug\Example2.pdb
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week11\Example2\bin\Debug\EntityFramework.dll
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week11\Example2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week11\Example2\bin\Debug\Microsoft.Data.Sqlite.dll
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week11\Example2\bin\Debug\SQLitePCLRaw.core.dll
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week11\Example2\bin\Debug\System.Buffers.dll
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week11\Example2\bin\Debug\System.Data.SQLite.dll
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week11\Example2\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week11\Example2\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week11\Example2\bin\Debug\System.Memory.dll
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week11\Example2\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week11\Example2\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week11\Example2\bin\Debug\EntityFramework.xml
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week11\Example2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week11\Example2\bin\Debug\Microsoft.Data.Sqlite.xml
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week11\Example2\bin\Debug\System.Buffers.xml
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week11\Example2\bin\Debug\System.Data.SQLite.xml
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week11\Example2\bin\Debug\System.Memory.xml
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week11\Example2\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week11\Example2\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week11\Example2\obj\Debug\Example2.csprojAssemblyReference.cache
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week11\Example2\obj\Debug\Example2.Form1.resources
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week11\Example2\obj\Debug\Example2.Properties.Resources.resources
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week11\Example2\obj\Debug\Example2.csproj.GenerateResource.cache
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week11\Example2\obj\Debug\Example2.csproj.CoreCompileInputs.cache
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week11\Example2\obj\Debug\Example2.csproj.CopyComplete
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week11\Example2\obj\Debug\Example2.exe
+C:\Users\Ghost Raven\source\repos\ICT2021Spring-main (1)\ICT2021Spring-main\Week11\Example2\obj\Debug\Example2.pdb
